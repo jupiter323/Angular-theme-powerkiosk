@@ -1,7 +1,3 @@
-.contacts .font-weight-bold{
-    font-weight: 600 !important;
-}
-
 .contacts{
     box-sizing: content-box;
 }
@@ -17,7 +13,7 @@
 }
 
 .chartData .mt-4{
-    margin-top: 34px !important;
+    margin-top: 40px !important;
 }
 
 .chartData .leftSide{
@@ -58,10 +54,34 @@
 }
 
 .chartScore{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     color: white;
     margin-top: 5px;
+}
+
+.chartGroup{
+    display: flex;
+}
+
+.pieChart{
+    width: 210px;
+    display: inline-block;
+}
+
+.areaChart{
+    margin-left: 40px;
+    width: calc(100% - 250px);
+}
+
+#pieChart div{
+    margin: auto;
+}
+
+.monthText{
+    position: absolute;
+    bottom: 0;
+    font-size: 15px !important;
 }
 
 .text-rightArrow{
@@ -72,11 +92,13 @@
 
 .rightarrow{
     font-size: 30px;
+    margin: 0 30px;
     color: #12a5ff;
 }
 
 .smallLabel{
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .normalLabel{
@@ -92,8 +114,8 @@
     content: '';
     display: inline-block;
     margin-right: 5px;    
-    width: 17px;
-    height: 10px;
+    width: 22px;
+    height: 12px;
     border-radius: 2px;
 }
 
@@ -289,5 +311,13 @@
 
     .normalLabel{
         font-size: 28px !important;
+    }
+
+    .pieChart{
+        margin-top: 20px;
+    }
+
+    .pieChart{
+        margin-top: 20px;
     }
 }

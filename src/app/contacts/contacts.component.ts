@@ -31,7 +31,8 @@ export class ContactsComponent implements OnInit {
   pieOption = {
     chart: {
       type: 'pie',
-      height: 175,
+      height: 180,
+      margin: [0, 0, 0, 0],
       backgroundColor: '#1a2574'
     },
 
@@ -77,7 +78,10 @@ export class ContactsComponent implements OnInit {
   areaOption = {
     chart: {
       type: 'area',
-      height: 230,
+      height: 235,
+      marginLeft: 60,
+      marginRight: 0,
+      marginBottom: 30,
       backgroundColor: '#1a2574'
     },
 
@@ -105,9 +109,11 @@ export class ContactsComponent implements OnInit {
         labels: {
           style: {
             color: '#8d92ba',
-            fontSize: 14,
-            fontFamily: 'Montserrat'
-          }
+            fontSize: 15,
+            fontFamily: 'Montserrat',
+            fontWeight: 'bold',            
+          },
+          y: 30
         }
     },
 
@@ -121,9 +127,11 @@ export class ContactsComponent implements OnInit {
             },
             style: {
               color: '#8d92ba',
-              fontSize: 14,
-              fontFamily: 'Montserrat'
-            }
+              fontSize: 15,
+              fontFamily: 'Montserrat',
+              fontWeight: 'bold',              
+            },
+            x: -25,
         },
         tickInterval: 5000,
         gridLineColor: '#8d92ba'
