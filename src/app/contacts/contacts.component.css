@@ -314,7 +314,7 @@
 .arrow-process-gold {
     background-color: #fc8f3b;
     max-width: 100%;
-    clip-path: polygon(0% 0%, 100% 0%, calc(100% + 22px) 50%, 100% 100%, 0 100%, 22px 50%);
+    clip-path: polygon(0% 0%, calc(100% -3px) 0%, calc(100% + 19px) 50%, calc(100% -3px) 100%, 0 100%, 22px 50%);
 }
 
 .arrow-process-gold::after {
@@ -325,8 +325,7 @@
 .arrow-process-platinum {
     background-color: #d4d2c9;
     max-width: 100%;
-    clip-path: polygon(0% 0%, 100% 0%, calc(100% + 22px) 50%, 100% 100%, 0 100%, 22px 50%);
-
+    clip-path: polygon(0% 0%, calc(100% -3px) 0%, calc(100% + 19px) 50%, calc(100% -3px) 100%, 0 100%, 22px 50%);
 }
 
 .arrow-process-platinum::after {
@@ -338,7 +337,7 @@
     background-color: #12a5ff;
     width: 30%;
     max-width: 100%;
-    clip-path: polygon(0% 0%, 100% 0%, calc(100% + 22px) 50%, 100% 100%, 0 100%, 22px 50%);
+    clip-path: polygon(0% 0%, calc(100% -3px) 0%, calc(100% + 19px) 50%, calc(100% -3px) 100%, 0 100%, 22px 50%);
 }
 
 .areaChart-head {
